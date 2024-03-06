@@ -4,6 +4,7 @@ h1{
     height: 400px;
     width: 800px;
     line-height: 400px;
+    font-size: small;
     
 }
 
@@ -11,7 +12,11 @@ h1{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%; 
+    width: 10%;
+    height: 45%;
+    padding-left: 50%;
+    padding-right: 50%;
+    padding-bottom: 60%;
 }
 
 .navigation{
