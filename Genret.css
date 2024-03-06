@@ -23,3 +23,21 @@ h1{
     width: 70%;
     height: 60%;
 }
+
+.kuva2{
+    width: 70%;
+    height: 60%;
+}
+
+.kuvat{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table
+}
+   
