@@ -7,10 +7,10 @@ h1{
 }
 
 .animelog{
-    position: absolute;
-    width: 6%;
+    position: relative;
+    max-width: 110px;
     margin-top: 3%;
-    margin-left: -2.6%;
+    margin-left: -1,7%;
     
     
 }
@@ -23,7 +23,10 @@ h1{
 }
 
 .lol-3{
-    margin-top: 7%;
+    margin-top: -10%;
+    color: rgb(149, 57, 172);
+
+    
 }
 
 .navigation{
@@ -44,21 +47,29 @@ h1{
     text-decoration: underline;
 }
 
+/*Puhelimen näyttö*/
 
 [class*="lol-"] {
     width: 100%;
+    
+
  }
+
+ /*Koneen näyttö*/
 
  @media only screen and (min-width: 768px){
     .lol-1{width: 8,33%;}
     .lol-6{width: 8,33%;}
     
+   
+    
+    
     
  }
 
- @media only screen and(max-width: 767px){
-    h1{text-align:start;}
- }
+ 
+
+
     
  
 
