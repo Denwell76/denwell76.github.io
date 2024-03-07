@@ -9,16 +9,18 @@ h1{
 }
 
 .animelog{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0;
+    position: fixed;
+    left: 50%;
+    bottom: 78%;
     width: 15%;
+    
     
 }
 
 .navigation{
     overflow: hidden;
-    background-color: #bd27c8;
+    background-color: #4b1a4f;
     font-family: Arial;
     position: fixed;
     top: 0px;
