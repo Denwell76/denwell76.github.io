@@ -7,10 +7,9 @@ h1{
 }
 
 .animelog{
-    position: relative;
+    position:static;
     max-width: 110px;
-    margin-top: 3%;
-    margin-left: -1,7%;
+   
     
     
 }
@@ -51,15 +50,29 @@ h1{
 
 [class*="lol-"] {
     width: 100%;
+    color: chocolate;
     
 
  }
+ [class*="animelog"] {
+    margin-top: 13%;
+    width: 65px;
+    
+
+ }
+ 
 
  /*Koneen näyttö*/
 
  @media only screen and (min-width: 768px){
     .lol-1{width: 8,33%;}
     .lol-6{width: 8,33%;}
+    .animelog{margin-top: 45px;
+        margin-left: -1,7%;
+        width: 110px;
+    
+    }
+    .lol-3{color: black;}
     
    
     
