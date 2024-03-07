@@ -60,19 +60,30 @@ h1{
     
 
  }
+
+ [class*="lol-3"] {
+   margin-top: -140px;
+    
+
+ }
  
 
  /*Koneen näyttö*/
 
  @media only screen and (min-width: 768px){
-    .lol-1{width: 8,33%;}
+    .lol-1{width: 8,33%;
+        margin-top: -5%;
+    
+    }
     .lol-6{width: 8,33%;}
     .animelog{margin-top: 45px;
         margin-left: -1,7%;
         width: 110px;
     
     }
-    .lol-3{color: black;}
+    .lol-3{color: black;
+    
+    }
     
    
     
