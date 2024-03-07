@@ -1,21 +1,29 @@
 h1{
-    font-family: sans-serif;
+    font-family: cursive ;
     text-align: center;
-    height: 400px;
+    height: 50px;
     width: 800px;
     line-height: 150px;
-    font-size: small;
+    font-size: 30;
     
 }
 
 .animelog{
     margin: 0;
-    position: fixed;
-    left: 50%;
-    bottom: 78%;
-    width: 15%;
+    position: absolute;
+    width: 6%;
+    line-height: 145px;
+    margin-left: 390px;
+    margin-top: 35px;
     
     
+}
+
+p{
+    text-align: center;
+    height: 350px;
+    width: 800px;
+    line-height: 180px;
 }
 
 .navigation{
