@@ -66,7 +66,21 @@ ol {
 	list-style: none;
 	counter-reset: list;
 	padding: 0 1rem;
+	
+
 }
+.intro{
+	text-align: center;
+	margin-top: 90px;
+	font-family: luminari;
+	font-size: 20px;
+	
+}
+[class*="intro"]{
+	margin-top: 100px;
+	width: 100%;
+}
+
 
 li {
 	--stop: calc(50% / var(--length) * var(--i));
@@ -86,6 +100,7 @@ li {
 	overflow: hidden;
 	background-color: white;
 }
+
 
 li::before {
 	content: '';
@@ -134,4 +149,5 @@ h3::before {
 	h3::before {
 		margin-right: 1.5rem;
 	}
+
 }
