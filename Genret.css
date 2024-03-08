@@ -1,9 +1,10 @@
 .navigation{
     overflow: hidden;
-    background-color: #bd27c8;
+    background-color: #430d47;
     font-family: Arial;
     position: fixed;
     top: 0px;
+    left: 0;
 }
 
 .navigation a{
@@ -20,12 +21,17 @@ h1{
 }
 
 .kuva1{
-    width: 70%;
+    width: 30%;
     height: 60%;
 }
 
 .kuva2{
-    width: 70%;
+    width: 30%;
+    height: 60%;
+}
+
+.kuva3{
+    width: 24%;
     height: 60%;
 }
    
