@@ -24,9 +24,12 @@ h1{
 .lol-3{
     margin-top: -10%;
     color: rgb(149, 57, 172);
-
+    font-family: cursive;
     
 }
+
+.lol-6{
+    text-align: center;}
 
 .navigation{
     overflow: hidden;
@@ -50,7 +53,7 @@ h1{
 
 [class*="lol-"] {
     width: 100%;
-    color: chocolate;
+    color: rgb(123, 99, 82);
     
 
  }
