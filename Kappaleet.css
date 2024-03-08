@@ -20,6 +20,8 @@
 }
 
 
+/*Albumit*/
+
 * {
 	box-sizing: border-box;
 }
@@ -35,7 +37,7 @@ img {
 
 body {
 	margin: 0;
-	padding: var(--pad) 0;
+	padding: var(--pad) 70;
 	font-family: "Open Sans", sans-serif;
 }
 
@@ -47,10 +49,13 @@ a {
 	max-width: 80rem;
 	margin: 0 auto;
 	padding: 0 var(--pad);
+    
+   
 }
 
 .wrapper > * + * {
 	margin-top: var(--pad);
+    
 }
 
 ol {
@@ -61,6 +66,8 @@ ol {
 	column-gap: calc(var(--pad) * 2);
 	column-rule: 0.2rem dotted turquoise;
 	border-radius: 0.5rem;
+    
+    
 }
 
 li {
@@ -98,12 +105,15 @@ li::before {
 	color: turquoise;
 	grid-column: 1;
 	grid-row: span 2;
+    padding: 20%;
 	align-self: end;
 	margin: 0 0 -0.15em -0.15em;
+
 }
 
 li span {
 	grid-column: 2;
+
 }
 
 li span:first-of-type {
@@ -137,6 +147,8 @@ li span:last-of-type {
 
 h1 {
 	font-size: clamp(1.5rem, 1vw + 2rem, 3.5rem);
+    margin-top: 98px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 h2 {
