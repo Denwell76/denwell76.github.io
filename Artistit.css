@@ -4,10 +4,12 @@ h1{
 
 .navigation{
     overflow: hidden;
-    background-color: #bd27c8;
+    background-color: #432b44;
     font-family: Arial;
     position: fixed;
     top: 0px;
+    left: 0;
+    
 }
 
 .navigation a{
@@ -17,4 +19,5 @@ h1{
     text-align: center;
      padding: 14px 16px;
     text-decoration: none;
+    text-decoration: underline;
 }
