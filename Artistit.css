@@ -1,5 +1,6 @@
 h1{
-    padding: 70%;
+    padding-left:2%;
+    padding-top: 15%;
 }
 
 .navigation{
@@ -20,4 +21,19 @@ h1{
      padding: 14px 16px;
     text-decoration: none;
     text-decoration: underline;
+}
+
+[class*="h1,p"]{
+    width: 100%;
+    
+}
+
+
+[class*="gunna"]{
+    width: 90%;
+    padding-top: 2%;
+}
+
+[class*="sade"]{
+    width: 90%;
 }
