@@ -37,3 +37,26 @@ h1{
 [class*="sade"]{
     width: 90%;
 }
+
+
+@media only screen and (min-width: 768px){
+    h1{padding-top: 5%;}
+
+    .container{
+        display: flex;
+    }
+
+    .gunna{
+        width: 30%;
+    }
+
+    .sade{
+        padding-top: 5%;
+        padding-left: 40%;
+    }
+    
+
+
+  
+
+}
