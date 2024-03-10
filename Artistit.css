@@ -44,6 +44,7 @@ h1{
 
     .container{
         display: flex;
+        flex: wrap;
     }
 
     .gunna{
@@ -53,6 +54,14 @@ h1{
     .sade{
         padding-top: 5%;
         padding-left: 40%;
+    }
+
+    .teksti1, .teksti2{
+        margin-top: 480px;
+        text-align: center;
+        padding: 10px;
+        font-size: 30px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
     
 
