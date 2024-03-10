@@ -1,3 +1,4 @@
+/*Otsikko*/
 h1{
     font-family: cursive ;
     text-align: center;
@@ -6,6 +7,7 @@ h1{
     
 }
 
+/*Logo*/
 .animelog{
     position:static;
     max-width: 110px;
@@ -14,6 +16,7 @@ h1{
     
 }
 
+/*Introtekstit*/
 .lol-1{
     text-align: center;
     height: 350px;
@@ -24,13 +27,15 @@ h1{
 .lol-3{
     margin-top: -10%;
     color: rgb(149, 57, 172);
-    font-family: cursive;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 
 .lol-6{
     text-align: center;}
 
+
+    /*Navigaatio*/
 .navigation{
     overflow: hidden;
     background-color: #4b1a4f;

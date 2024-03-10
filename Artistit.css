@@ -1,8 +1,11 @@
+
+/*Otsikko*/
 h1{
     padding-left:2%;
     padding-top: 15%;
 }
 
+/*Navigaatio*/
 .navigation{
     overflow: hidden;
     background-color: #432b44;
@@ -22,6 +25,8 @@ h1{
     text-decoration: underline;
 }
 
+
+/*Puhelimen näyttö*/
 [class*="h1,p"]{
     width: 100%;
     
@@ -41,7 +46,7 @@ h1{
     width: 90%;
 }
 
-
+    /*Koneen ja tabletin näyttö*/
 @media only screen and (min-width: 768px){
     h1{padding-top: 5%;}
 
